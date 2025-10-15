@@ -5,33 +5,36 @@ especificacao da hierarquia:
 
 <img width="450" height="245" alt="image" src="https://github.com/user-attachments/assets/bef884db-0b65-449d-bb8b-ec7e860833b0" />
 
-(i) endereço - aponta para o endereço de um dado ou instrução; 
-(ii) controle - habilita o acesso à memória e define se este acesso é de leitura ou escrita;
-(iii) status - indica se a informação já foi lida ou escrita na/da memória;
-(iv) dados ou instruções - porta bidirecional no caso da memóriaser de dados (efetua escrita e leitura), e porta unidirecional no caso da memória ser de instruções (só leitura).
+- (i) endereço - aponta para o endereço de um dado ou instrução;
+  
+- (ii) controle - habilita o acesso à memória e define se este acesso é de leitura ou escrita;
+  
+- (iii) status - indica se a informação já foi lida ou escrita na/da memória;
+
+- (iv) dados ou instruções - porta bidirecional no caso da memóriaser de dados (efetua escrita e leitura), e porta unidirecional no caso da memória ser de instruções (só leitura).
 
 Um programa que testa a hierarquia de memória deve fazer diversos acessos, forçando que ocorram casos de cache miss e cache hit de forma a explorar a localidade espacial e temporal do programa. O arquivo que contém o código executável do processador pode ser obtido com um programa assembly do MIPS sendo entrada para o montador do processador (e.g., MARS).
 
 CACHE:
-    Frequencia: mesma do processador
-    * Mapeamento Direto 
-    * Write-Through
-    * 8 linhas
-    * 8 palavras
+    - Frequencia: mesma do processador
+    - Mapeamento Direto 
+    - Write-Through
+    - 8 linhas
+    - 8 palavras
 
 <img width="542" height="276" alt="image" src="https://github.com/user-attachments/assets/98ed2e4e-309c-40a2-95fb-adb006452ab2" />
 
 MEMÓRIA PRINCIPAL:
-    Frequencia: 16 ciclos de relogio por acesso
+   - Frequencia: 16 ciclos de relogio por acesso
 
 descrição programas:
-    1) não utiliza principios de localidade
-    2) nao utiliza localidade espacial
-    3) nao utiliza localidade temporal
-    4) utiliza principios de localidade
-
+    - não utiliza principios de localidade
+    - nao utiliza localidade espacial
+    - nao utiliza localidade temporal
+    - utiliza principios de localidade
+    - nao sei???
 
 O QUE PRECISA FAZER:
-  HDL;
-  APLICAÇÂO: 5 programas em ASSEMBLY MIPS;
-  RELATÓRIO COM GRÁFICO.
+  - HDL;
+  - APLICAÇÂO: 5 programas em ASSEMBLY MIPS;
+  - RELATÓRIO COM GRÁFICO.
