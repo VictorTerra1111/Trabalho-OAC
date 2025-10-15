@@ -1,6 +1,6 @@
 ## Hierarquia de Memória Cache
 ** entender: como implementar a memoria, descrever o processo de WRITE THROUGH e como implementar Mapeamento direto. **
-
+DESCOBRIR CLOCK 
 Repositorio para armazenar trabalho da cadeira de Organização e Arquitetura de Computadores.
 
 especificacao da hierarquia:
