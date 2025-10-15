@@ -33,12 +33,12 @@ descrição programas:
     - nao utiliza localidade espacial
     - nao utiliza localidade temporal
     - utiliza principios de localidade
-    - nao sei???
+    - nao sei o ultimo???
 
 
   ARQUIVOS PARA CRIAR:
     - hdl
-        - src
+      - src
           - mpd.sv // memoria principal de dados
           - mpi.sv // memoria principal de instruções
           - cache.sv // implementacao da L1
