@@ -33,7 +33,25 @@ descrição programas:
     - nao utiliza localidade espacial
     - nao utiliza localidade temporal
     - utiliza principios de localidade
-    - nao sei???
+    - nao sei o ultimo???
+
+
+  ARQUIVOS PARA CRIAR:
+  - hdl
+    - src
+        - mpd.sv // memoria principal de dados
+        - mpi.sv // memoria principal de instruções
+        - cache.sv // implementacao da L1
+        - cpu.sv ?? // processador ?? Gerador de endereços
+      - sim
+        - sim.do
+        - tb_main.sv
+  - app
+    - app1.asm
+    - app2.asm
+    - app3.asm
+    - app4.asm
+    - app5.asm
 
 O QUE PRECISA FAZER:
   - HDL; ** EM SYSTEM VERILOG **
