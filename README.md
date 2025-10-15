@@ -21,6 +21,7 @@ CACHE:
     - Write-Through
     - 8 linhas
     - 8 palavras
+    
 
 <img width="542" height="276" alt="image" src="https://github.com/user-attachments/assets/98ed2e4e-309c-40a2-95fb-adb006452ab2" />
 
@@ -35,6 +36,6 @@ descrição programas:
     - nao sei???
 
 O QUE PRECISA FAZER:
-  - HDL;
+  - HDL; ** EM SYSTEM VERILOG **
   - APLICAÇÂO: 5 programas em ASSEMBLY MIPS;
   - RELATÓRIO COM GRÁFICO.
