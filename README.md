@@ -14,11 +14,15 @@ Um programa que testa a hierarquia de memória deve fazer diversos acessos, for�
 
 CACHE:
     Frequencia: mesma do processador
-    Mapeamento Direto 
-    Write-Through
-  
-8 linhas
-8 palavras
+    * Mapeamento Direto 
+    * Write-Through
+    * 8 linhas
+    * 8 palavras
+
+<img width="542" height="276" alt="image" src="https://github.com/user-attachments/assets/98ed2e4e-309c-40a2-95fb-adb006452ab2" />
+
+MEMÓRIA PRINCIPAL:
+    Frequencia: 16 ciclos de relogio por acesso
 
 descrição programas:
     1) não utiliza principios de localidade
